@@ -1,0 +1,9 @@
+custom_formats:
+  # don't grab movies that have DolbyVision and no other HDR
+  - trash_ids:
+    - 58d6a88f13e2db7f5059c41047876f00 # DV
+    quality_profiles:
+      - name: Maximum
+        score: -10000
+      - name: Optimized
+        score: -10000

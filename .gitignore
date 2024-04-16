@@ -1,0 +1,10 @@
+.DS_Store
+._.DS_Store
+
+# contains secrets
+recyclarr.yml
+
+# working files
+cache
+logs
+repositories
